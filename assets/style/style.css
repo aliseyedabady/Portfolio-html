@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f1f6;
+}
+.user .user-img {
+  display: flex;
+  justify-content: center;
+}
+.user .user-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+  position: absolute;
+  top: 14px;
+}
+.user {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.user .user-info {
+  padding-top: 90px;
+}
+
+.user .user-info .do {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.user .user-info .do span {
+  background-color: #ebeeee;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 10px;
+}
+.user .user-info .socail-icons {
+  padding: 0 60px;
+  padding-bottom: 10px;
+}
+.user .user-info .socail-icons i {
+  font-size: 13px;
+}
+/* socail-icons */
+.user .user-details {
+  background-color: #f4f8f9;
+  padding: 20px;
+  color: #555959;
+  font-size: 12px;
+}
+.user .user-details .icon-user {
+  margin-right: 10px;
+}
+.cv-btn {
+  border: none;
+  background-color: #2e4df7;
+  color: #fff;
+  padding: 10px 36px;
+  border-radius: 15px;
+}
+/* Right Area */
+.col-9 {
+  padding: 0 !important;
+}
+.right-area {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.about {
+  padding: 20px;
+}
+.about p {
+  color: #555959;
+  font-size: 14px;
+}
+.what-doing {
+  padding: 20px;
+
+  background-color: #f4f8f9;
+}
+.skill-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
